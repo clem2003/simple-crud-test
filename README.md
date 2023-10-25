@@ -1,1 +1,1 @@
-# simple-crud-test
+a simple crud implementation using python and mysql
