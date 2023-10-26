@@ -30,7 +30,7 @@ db.commit() #commit the variables of table
 cursor.execute("INSERT INTO user_data (nama_merk,kota_asal,jenis_bisnis) VALUES ('Nike','Beavertown','Sports Apparel')")
 
 # #ALTER table contents
-cursor.execute("ALTER TABLE user_data RENAME brand_list;") #FOR ALTERING/DROPPING COLUMN
+cursor.execute("ALTER TABLE user_data RENAME brand_list;")
 
 # #UPDATE table contents
 cursor.execute("UPDATE brand_list SET nama_merk ='Adidas', kota_asal = 'Herzogenaurach' WHERE ID = '2' ")
